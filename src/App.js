@@ -2,7 +2,6 @@ import "./App.css";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
 import Form from "./components/Form.js";
-import { useState } from "react";
 
 function App() {
   return (
@@ -21,6 +20,12 @@ function App() {
           <Form />
         </div>
       </div>
+      <h1
+        id="backgroundtext"
+        className="z-0 relative w-full bottom-72 left-32 text-9xl scale-150 text-white"
+      >
+        2022
+      </h1>
       <div className="mb-5"></div>
       <Footer />
     </div>

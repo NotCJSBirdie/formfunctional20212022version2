@@ -14,3 +14,10 @@
   font-family: "Alfa Slab One", cursive;
   text-shadow: 4px 4px black;
 }
+
+#backgroundtext {
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 4px 4px black;
+  opacity: 25%;
+  font-size: 400px;
+}
